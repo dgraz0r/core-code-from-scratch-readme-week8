@@ -17,3 +17,53 @@ function saleHotdogs(n){
   if (n >= 10) {return n * 90};
  
 }
+
+
+## Training JS #8: Conditional statement--switch
+
+![image](https://user-images.githubusercontent.com/117783981/213360821-50860147-07c2-4ec4-86ff-45f119928687.png)
+
+![image](https://user-images.githubusercontent.com/117783981/213360870-f8f808ac-5c1c-4d59-9b45-845f1d3b6546.png)
+
+function howManydays(month){
+  var days;
+  switch (month){
+      
+      case 1:
+      days = 31;
+      break;
+      
+      case 3:
+      days = 31;
+      break;
+      
+      case 5:
+      days = 31;
+      break;
+      
+      case 7:
+      days = 31;
+      break;
+      
+      case 8:
+      days = 31;
+      break;
+      
+      case 10:
+      days = 31;
+      break;
+      
+      case 12:
+      days = 31;
+      break;
+      
+      case 2:
+      days = 28;
+      break;
+  
+      default: 
+      days = 30
+      break;
+  }
+  return days;
+}
